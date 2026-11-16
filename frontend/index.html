@@ -1,19 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Teacher Timetable Optimizer</title>
-    <style>
-        body { font-family: sans-serif; padding: 20px; }
-        #results { margin-top: 20px; padding: 10px; background: #f4f4f4; white-space: pre-wrap; }
-    </style>
-</head>
-<body>
-    <h1>Timetable Optimizer</h1>
-    <p>Submit teacher, room, and course constraints to the solver.</p>
-    <button id="optimizeBtn">Generate Schedule</button>
-    <div id="results">Awaiting input...</div>
-    
-    <script src="script.js"></script>
-</body>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
 </html>
